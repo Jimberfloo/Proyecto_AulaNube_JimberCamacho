@@ -7,8 +7,7 @@ Proyecto de diseño e implementación de arquitectura basada en microservicios p
 ---
 
 ## 1. Integrantes del Equipo
-* **Estudiante 1:** [Nombre Apellido]
-* **Estudiante 2:** [Nombre Apellido]
+* **Estudiante 1:** [Jimber Camacho]
 * **Sección / Asignatura:** JVY0101
 
 ---
