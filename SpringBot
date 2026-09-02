@@ -1,0 +1,21 @@
+aulanube-lms/
+├── README.md
+├── INFRAESTRUCTURA-DIAGRAMA DE LA NUBE.png
+├── ms-usuarios/
+│   ├── pom.xml
+│   └── src/main/java/cl/duoc/aulanube/usuarios/MsUsuariosApplication.java
+├── ms-cursos/
+│   ├── pom.xml
+│   └── src/main/java/cl/duoc/aulanube/cursos/MsCursosApplication.java
+├── ms-matriculas/
+│   ├── pom.xml
+│   └── src/main/java/cl/duoc/aulanube/matriculas/MsMatriculasApplication.java
+├── ms-evaluaciones/
+│   ├── pom.xml
+│   └── src/main/java/cl/duoc/aulanube/evaluaciones/MsEvaluacionesApplication.java
+├── ms-pagos/
+│   ├── pom.xml
+│   └── src/main/java/cl/duoc/aulanube/pagos/MsPagosApplication.java
+└── ms-certificados/
+    ├── pom.xml
+    └── src/main/java/cl/duoc/aulanube/certificados/MsCertificadosApplication.java
