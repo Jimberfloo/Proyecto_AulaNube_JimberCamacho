@@ -18,7 +18,7 @@ AulaNube es una plataforma de e-learning distribuida diseñada bajo una arquitec
 ---
 
 ## 3. Arquitectura del Sistema
-![Diagrama de Arquitectura](file:///C:/Users/jimbe/Downloads/ENTREGA_EVALUACION1_JIMBERCAMACHO/INFRAESTRUCTURA-DIAGRAMA%20DE%20LA%20NUBE.png)
+![Diagrama de Arquitectura](.file:///C:/Users/jimbe/Downloads/ENTREGA_EVALUACION1_JIMBERCAMACHO/INFRAESTRUCTURA-DIAGRAMA%20DE%20LA%20NUBE.png)
 
 ### Componentes Clave de Infraestructura (AWS)
 * **API & Borde:** AWS WAF, Amazon Cognito (JWT / Roles), Amazon API Gateway.
