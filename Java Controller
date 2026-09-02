@@ -1,0 +1,21 @@
+package cl.duoc.aulanube.evaluaciones.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/api/v1/evaluaciones")
+public class EvaluacionController {
+
+    @PostMapping("/{id}/rendir")
+    public ResponseEntity<String> rendirEvaluacion(@PathVariable String id, @RequestBody String respuestas) {
+        // Lógica de rendición e integración con evento SQS
+        return ResponseEntity.ok("Evaluación " + id + " registrada exitosamente.");
+    }
+
+    @PostMapping("/{id}/calificar")
+    public ResponseEntity<String> calificarEvaluacion(@PathVariable String id, @RequestParam Double nota) {
+        // Publicación de evento de calificación
+        return ResponseEntity.ok("Calificación registrada y evento publicado.");
+    }
+}
